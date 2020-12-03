@@ -1,0 +1,687 @@
+
+body{background:#fff;-webkit-font-smoothing: antialiased;}
+*, *:before, *:after {box-sizing: border-box;}
+
+@keyframes fade_in {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+/* gnb */
+#main_header{width:100%;background:#fff;position: fixed;z-index: 9999999;height:276px;transition: 0.3s;}
+#main_gnb_wrap{width:1803px;height:70px;margin:0 auto;display:flex;justify-content: space-between;font-family:'Tw Cen W01 Medium', sans-serif;font-weight: 400;}
+.main_gnb{font-size:20px;-webkit-font-smoothing: antialiased;}
+.main_gnb ul{display:flex;height:70px;align-items: center;}
+.main_gnb ul li{margin-right:30px}
+
+.button{border:1px solid #000;padding:8px 23px}
+
+.main_logo{background:#fff;display:flex;align-items: center;margin-left:-220px}
+/* .main_logo img{width:170px;} */
+
+
+
+#main_logo_img{transition: 0.2s;margin:0 auto;padding-top:430px;display: flex; opacity: 0; animation : fade_in 2s ease forwards 1s;}
+.marin_logo_po{width:1030px}
+.marin_logo_po2{padding-top:0px;width:170px}
+
+
+
+
+
+.main_menu_right{display:flex;align-items: center;}
+.main_menu_right img{width:33px;height:25px}
+
+
+.gnb_burger{cursor: pointer;height: 17px;width: 36px;display:flex;justify-content: space-between;flex-direction: column;margin-left:30px}
+.gnb_burger span{content: '';height: 3px;width: 100%;background-color: #000;display: block;}
+
+
+/* hero */
+#hero {height:1600px;width:100%;color:#fff;position: relative; }
+.hero_wrap{width:100%;height:1600px;background:url(../img/Rock_Steady_01-2048x1365.jpg)no-repeat center 200px;background-size:contain;padding-top:30px;margin-bottom:130px; opacity: 0; animation : fade_in 2s ease forwards; }
+
+.sticky{position:sticky;top:70%;text-align:center;padding-bottom:200px}
+#hero span{font-family:'Tw Cen W01 Medium', sans-serif;font-size:13px;letter-spacing: 1px;padding-top:40%}
+#hero h1{font-family: 'Lustria', serif;font-size:90px;font-weight: normal;padding:10px 0 15px;letter-spacing: 1px;}
+#hero h3{font-family:'Feijoa', serif;font-size:18px;color:#fff;letter-spacing: 0.5px;}
+#hero::after{content: ' ';display: table;}
+
+/* column_부분 */
+.column_wrap{width:1803px;clear: both;margin: 0px auto;box-sizing:border-box;display: flex;justify-content: space-between;position: relative; opacity:0;}
+.column_wrap::after{content: ' ';display: table;}
+.column_left{width:50%;position:sticky;top:0px;height:1178px;margin-bottom:100px; }
+.column_left img{width:882px;height:882px}
+.column_left h2{font-family:'Lustria', serif;font-size:70px;text-align: center;margin:100px 0 30px}
+.column_left p{width:705px;font-size:18px;text-align: center;margin:0 auto}
+
+.column_group{width:50%;margin-bottom:15px;padding-left: 3px;}
+.column_group ul{display:flex;margin-bottom:100px;justify-content: space-around;}
+.column_group ul li{width:260px;padding-right:40px}
+.column_group ul li p{width:260px;color:#4d4d4d;font-size:15px;line-height:25.5px}
+.column_group ul li:last-child{padding-right:20px}
+.column_group figure img{width:260px;margin-bottom:12px}
+.column_group h2{font-size:20px;padding:20px 0}
+
+.column_container .button{width:127px;margin:0 auto;text-align: center;display:block;box-sizing: border-box;}
+
+.column_container{padding-bottom:124px;}
+
+
+/* about_people */
+
+/* .about_people_wrap{width:1803px;margin: 0px auto;display:flex;justify-content: space-between;padding:53px 20px 130px;border-top:1px solid #111;} */
+.about_people_wrap a{width:1843px;margin: 0px auto;display:flex;justify-content: space-between;padding:53px 20px 130px;border-top:1px solid #111;}
+.about_people_img img{width:614px; }
+.about_people_img figure{opacity:0;}
+.about_people_text{display:flex;flex-direction: column;justify-content: space-between;}
+.about_people_text h1{font-size:90px;line-height:97.2px;font-weight: normal;}
+.about_people_text h3{padding-bottom:20px}
+.about_people_text span{font-size:13px;font-family:'Tw Cen W01 Medium', sans-serif;letter-spacing:1.43px;padding-bottom:20px;display:block}
+.about_people_text p{color:#000;font-size:18px;font-family: 'FeijoaMediumItalic', serif;-webkit-font-smoothing: antialiased;font-weight: normal;line-height:31px}
+
+
+/* Mitchell Gold+Bob William */
+.Mitchell_container{width:100%;height:480px;background:url(../img/Kinfolk-Banner-Desktop-2.jpg)no-repeat fixed;background-size: cover;margin-bottom:130px}
+
+
+
+
+/* current issue */
+.currentissue_container{padding-bottom:124px}
+.currentissue_container .button{display:block;margin:0 auto 124px;width:127px;text-align:center}
+.currentissue_container h2{text-align: center;font-size:20px;margin-bottom:100px;letter-spacing:none;}
+.currentissue_container img{height:780px}
+.currentissue_container p{font-size:18px;color:#000;text-align: center;margin-bottom:65px}
+
+
+
+
+  .currentissue_magazine {
+    font-family:Arial;
+    width:100%;
+    display:block;
+    margin:0 auto;
+    height:800px;
+    overflow: hidden;
+    opacity: 0;
+  }
+  .slider{display:flex;justify-content: center;}
+
+
+
+
+
+/* 김화영 시작*/
+
+/* selected */
+.selected{ 
+    padding-top:50px; 
+    border-top:1px solid #111 ;
+    width: 1803px; 
+    margin:0 auto;}
+.selected h2{font-size:20px;text-align: center}
+.selected_stories_wrap{
+    width: 100%;
+    margin:60px 0 0 0;
+  opacity: 0;}
+.selected_stories {
+    width: 1803px; 
+    height: 632px;
+    display: flex; 
+    margin:0 auto; 
+    list-style: none;
+    align-items: flex-start;}
+.selected_stories li{ 
+    width: 295px; 
+    padding: 0 10px;}
+.selected_stories li img{
+    width: 275px;}
+.selected_stories li h3{
+    font-size:13px ;
+    line-height: 18px;
+    text-transform: uppercase;}
+.selected_stories li h2{
+    font-size:20px ;
+    line-height: 28px; 
+    text-align: left ; 
+    margin:12px 0;}
+.selected_stories li p{
+    font-size: 15px; line-height: 22px;}
+
+
+/* hrero_dosan */
+.hero_dosan_warp {
+    width:100%;
+    height: 1450px;
+    background: url(../img/AtHomeWithKinfolk_web_02-2000x1500.jpg) no-repeat center;
+    background-size:cover;
+    margin: 30px 0 130px 0 ; 
+    position: relative;
+    opacity: 0;
+}
+
+.hero_dosan_text_warp {
+   width:1803px;
+   margin:0 auto;
+   position:sticky;
+   top:0%;
+   text-align:center;
+   padding:500px 0 100px
+    
+    
+}
+
+.hero_dosan_text_warp h1{
+    font-family: serif;
+    font-size: 90px;
+    color: rgb(255, 255, 255);
+    line-height: 90px ;
+    letter-spacing: 5px;
+    word-spacing: -25px;
+    font-weight: 400;
+}
+.hero_dosan_text_warp p{
+    color: rgb(255, 255, 255);
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 15px;
+    line-height: 31px;
+}
+/* rock steady*/
+.rock_steady_warp{ 
+    box-sizing: border-box; 
+    
+
+    width: 100%; 
+    text-align: center;
+}
+.rock_steady_img_warp{
+    border-top: 1px solid rgb(0,0,0); 
+    width: 1803px;
+    padding:128px 0 30px 0 ; 
+    opacity: 0;
+    margin:0 auto;
+    display: flex; 
+    align-content: center;
+    justify-content: center;
+}
+.steady_04,.steady_05{
+    padding:0 20px 20px;
+}
+.rock_steady_text_warp h3{
+    margin:70px 0 50px 0; 
+}
+.rock_steady_text_warp h1{
+    margin:0 0 50px 0; 
+    font-size: 70px;
+    font-weight: 400;
+    line-height: 75px;
+    letter-spacing: 5px;
+    word-spacing: -15px;
+}
+.rock_steady_text_warp p{
+    margin:0 0 30px 0; 
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31px;
+}
+
+/* parachute */
+
+.parachute_img{
+    width:100%;
+    height:480px;
+    background:url(../img/Kinfolk-Banner-Desktop-2.jpg)no-repeat fixed;
+    background-size: cover;margin:130px 0 130px
+}
+/* aoudio section*/
+
+.long_listen{ 
+    /* padding-top:50px;  */
+    /* border-top:1px solid #111 ; */
+    width: 1803px; 
+    margin:0 auto;}
+.long_listen h2{font-size:20px;text-align: center}
+.audio_wrap{
+    width: 100%;
+    margin:60px 0 0 0;;}
+.audio {
+    width: 1803px; 
+    height: 275px;
+    display: flex; 
+    margin:0 auto; 
+    list-style: none;
+    align-items: flex-start;
+    opacity: 0;}
+.audio li{ 
+    width: 295px; 
+    padding: 0 10px;}
+.audio li img{
+    width: 275px;}
+.audio li h3{
+    font-size:13px ;
+    line-height: 18px;
+    text-transform: uppercase;}
+.audio li h2{
+    font-size:20px ;
+    line-height: 28px; 
+    text-align: left ; 
+    margin:12px 0;}
+.audio li p{
+    font-size: 15px; line-height: 22px;}
+
+
+
+
+/* 류희경 작업 시작 */
+#rendered {
+    
+    width: 100%;
+    height: 1168px;
+    background-image: url(../img/Rendered_Impossible_04-2000x1270.jpg);
+    background-size: 100%;
+    text-align: center;
+    margin: 250px 0 130px;
+    opacity: 0;
+
+
+}
+
+.rendered_wrap {
+    width: 1803px;
+    height: 1168px;
+    margin: 0 auto; 
+    /* padding-top: 437px; */
+    position: relative;
+
+}
+
+.rendered_text {position:sticky;
+    top:0%;
+    text-align:center;
+    padding:473px 0 100px}
+
+.rendered_wrap h4{
+    font-family: "Tw Cen W01 Medium";
+    color: white;
+    font-size: 13px;
+    line-height: 15.6px;
+    margin-bottom: 7px;
+    font-weight: 200;
+    letter-spacing: 1.43px;
+}
+
+.rendered_wrap h1{
+    color: white;
+    font-size: 90px;
+    line-height: 97.2px;
+    font-weight: 400;
+    margin-bottom: 7px;
+}
+
+
+.rendered_wrap p {
+   font-family:"Feijoa";
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 31px;
+    margin-top: 27px;
+} 
+
+
+#ron{
+  width: 100%;
+  text-align: left;
+  margin-bottom: 130px;
+}
+
+.ron_wrap {
+  width: 1803px;
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+
+.ron_conts{
+  width: 1178px;
+  height: 351px;
+  padding: 0 20px;
+}
+
+
+.ron_conts h3{
+  font-family: "Tw Cen W01 Medium";
+  font-size: 13px;
+  line-height: 15.6px;
+  margin-bottom: 10px;
+
+  letter-spacing: 1.43px;
+}
+
+.ron_conts h1 {
+
+  font-family: "Tw Cen W01 Medium";
+  
+    font-size: 42px;
+    line-height: 45px;
+    margin-bottom: 7px;
+    font-weight: 200;
+    margin-bottom: 40px;
+}
+
+
+.ron_conts p {
+  width: 620px;
+  height: 242px;
+  font-family:"FeijoaMediumItalic";
+
+   font-size: 18px;
+   font-style: italic;
+   font-weight: 400;
+   line-height: 31px;
+   margin-top: 27px;
+}
+
+.ron_img img{
+  width: 589px;
+  height: auto;
+  padding-right: 20px;
+}
+.ron_img figure {
+  opacity: 0;
+}
+
+
+
+
+#object_matters {
+  width: 100%;
+  text-align: left;
+
+
+}
+
+
+.object_wrap {
+  width: 1803px;
+  margin: 0 auto;
+}
+
+.object_title {
+  margin: 0 0 50px;
+  padding-top: 50px;
+  border-top: 1px solid rgb(51, 51, 51);
+  text-align: center;
+
+}
+
+.object_wrap h2 {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.object_flex h3 {
+  margin-bottom: 15px;
+  line-height: 21.6px;
+}
+.object_flex p{
+  color: rgb(77, 77, 77);
+  font-size: 15px;
+  opacity: 0;
+}
+
+.object_flex {
+  display: flex;
+  
+}
+.object_flex li {
+  width: 295px;
+  height: 560px;
+  padding: 0 10px;
+  
+}
+
+.object_flex img {
+  width: 275px;
+  margin-bottom: 7px;
+}
+
+
+.object_padding_border {
+  width: 100%;
+  padding-bottom: 30px;
+}
+
+
+#director {
+  width: 100%;
+  text-align: center;
+
+}
+
+.director_wrap {
+  width: 1803px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+  margin-bottom: 90px;
+}
+
+.director_title {
+  margin: 0 20px 50px;
+  padding-top: 50px;
+  border-top: 1px solid rgb(51, 51, 51);
+  text-align: center;
+}
+
+.director_flex{
+  display: flex;
+  justify-content: center;
+  opacity: 0;
+}
+
+.director_flex li {
+  width: 595px;
+  padding: 0 30px ;
+}
+.director_flex img {
+  width:495.625px;
+  margin: 0 auto 25px;
+}
+
+.director_wrap h2 {
+  font-size: 20px;
+  line-height: 28px;
+}
+
+.director_flex h2 {
+  font-family: 'Lustria', serif;
+  font-size: 42px;
+  line-height: 45px;
+  margin-bottom: 32px;
+}
+.director_flex h3 {
+  font-size: 13px;
+
+  margin-bottom: 55px;
+}
+
+.director_flex p {
+  color: rgb(77, 77, 77);
+   font-size: 15px;
+   font-weight: 400;
+   line-height: 25.5px;
+   margin-bottom: 30px;
+}
+
+.director_flex a.director_more {
+  font-family: "Tw Cen W01 Medium";
+  font-size: 15px;
+  line-height: 21px;
+  letter-spacing: 1.5px;
+  color: rgb(153, 153, 153);
+
+
+}
+
+.director_flex a.director_more:hover{
+  text-decoration: underline rgb(51, 51, 51);
+}
+
+
+#popular{
+  width: 100%;
+  text-align: left;
+}
+
+.popular_flex {
+  width: 1787px;
+  height: 745px;
+  text-align: left;
+  display: flex;
+  flex-wrap: wrap;
+  opacity: 0;
+}
+
+.popular_wrap {
+  text-align: center;
+  margin: 0 auto;
+  padding: 50px 0 30px;
+  width: 1803px;
+  border-top: 1px solid rgb(51, 51, 51);
+}
+
+.popular_flex li {
+  width: 853.5px;
+  padding:0 20px ;
+  margin-bottom: 90px;
+  display: flex;
+  box-sizing: content-box;
+}
+
+.popular_conts {
+  width: 633.45px;
+  padding-left: 35px;
+}
+
+.popular_flex img {
+  width: 220px;
+  margin-bottom: 7px;
+}
+
+.popular_wrap h2 {
+  margin-bottom: 50px;
+  font-size: 20px;
+}
+
+.popular_flex h3 {
+  margin-bottom: 15px;
+  font-size: 13px;
+}
+
+.popular_flex h2 {
+  margin-bottom: 12px;
+  font-size: 20px;
+}
+
+.popular_flex p {
+  color: rgb(77, 77, 77);
+  font-size: 15px;
+  line-height: 25.5px;
+}
+
+
+
+
+
+#connect{
+  width: 100%;
+  text-align: center;
+}
+
+.connect_inner {
+  width: 1803px;
+  margin: 0 auto;
+  padding-bottom: 30px;
+}
+
+.connect_input_wrap {
+  width: 540px;
+  height: 40px;
+  margin: 0 auto 15px;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid rgb(51, 51, 51);
+
+  font-size: 15px;
+  line-height: 40px;
+}
+
+.connect_input_wrap h3:first-child {
+  color: rgb(153, 153, 153);
+}
+
+.connect_check {
+  width: 540px;
+  height: 18px;
+  margin: 0 auto 10px;
+
+  display: flex;
+  justify-content: center;
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.connect_inner h2 {
+  font-size: 20px;
+  line-height: 21.6px;
+  margin-bottom: 55px;
+}
+
+.connect_check p {
+  margin-left: 20px;
+}
+
+.connect_check span {
+  text-decoration: underline;
+  cursor: pointer;
+}
+.connect_check span:hover {
+  text-decoration: none;
+}
+
+
+
+
+/* footer */
+footer {
+  width: 100%;
+}
+.footer_inner {
+  width: 1803px;
+  margin: 200px auto 0px ;
+  border-top: 4px solid rgb(0, 0, 0);
+  padding-bottom: 20px;
+}
+.footer_nav{width:1803px;margin:0 auto;display:flex;justify-content: space-between}
+.footer_nav ul{margin-bottom:50px;font-size:20px;font-family: "Tw Cen W01 Medium" , serif;}
+.footer_nav ul li{float:left;margin:0 20px 0 0}
+.footer_nav ul:last-child li{margin-right:0}
+
+
+/*이미지 hover시 어둡게*/
+
+.director_flex figure,  .object_flex figure, .popular_flex figure, .audio figure, .selected_stories figure, .steady_04, .steady_05, .column_left, .column_group figure {
+  filter:brightness(100%);
+
+}
+
+.director_flex figure:hover, .object_flex figure:hover, .popular_flex figure:hover, .audio figure:hover, .selected_stories figure:hover, .steady_04:hover, .steady_05:hover, .column_left:hover, .column_group figure:hover{
+  filter:brightness(90%);
+  transition : 0.5s;
+  cursor: pointer;
+}

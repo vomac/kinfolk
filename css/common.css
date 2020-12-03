@@ -1,0 +1,55 @@
+
+/*작은글씨 산세리프*/
+@font-face {font-family: "Tw Cen W01 Medium";
+    src: 
+    url("../font/c862d8098ce50a7dc042ebbb9b94bbc8.woff2") format("woff2"),
+    url("../font/c862d8098ce50a7dc042ebbb9b94bbc8.woff") format("woff"), 
+    url("../font/c862d8098ce50a7dc042ebbb9b94bbc8.svg Cen W01 Medium") format("svg");
+  }
+
+
+  /*작은글씨 산세리프 얇은체*/
+  @font-face {font-family: "Tw Cen MT W01 Light";
+   
+    src: url("87ffd2f0e73410751e4ce0003a38ded7.woff") format("woff"), /* chrome、firefox */
+    
+  }
+
+
+
+/* 내부 작은글씨 세리프  */
+@font-face {font-family:"Feijoa";
+    src: 
+    url("../font/Feijoa-Medium.woff") format("woff")}
+
+/* 내부 작은글씨 세리프 이탤릭  */
+@font-face {font-family:"FeijoaMediumItalic";
+        src: 
+        url("../font/Feijoa-Medium-Italic.woff") format("woff")}
+
+/*큰글씨 세리프 font-family: 'Lustria', serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Lustria&display=swap');
+
+
+
+*{margin:0;padding:0;}
+*, *:before, *:after {box-sizing: border-box;}
+body{background:#fff;-webkit-font-smoothing: antialiased;}
+
+li{list-style:none}
+h1{font-family:'Lustria', serif;}
+h2, h3{font-family:'Tw Cen W01 Medium', sans-serif;font-style:normal;font-weight:normal;color:rgb(0,0,0);white-space: nowrap;}
+p{color:rgb(61, 61, 61);font-family:'Feijoa', serif ;font-weight:normal;line-height: 1.5em;}
+h3{font-size: 13px;letter-spacing: 1.43px;white-space: nowrap;}
+
+
+/* 링크스타일 */
+
+a{text-decoration:none;}
+a:link , a:visited {color:rgb(0,0,0);}
+a:hover{color:rgb(0,0,0);text-decoration:none;cursor: pointer;}
+a:active{color:#111;text-decoration:none;}
+
+/* 버튼스타일 */
+.button{font-family:'Tw Cen W01 Medium', sans-serif;font-size:20px;letter-spacing: none;white-space: nowrap;}
+.button:hover{background:#111;color:white;transition:all 0.5s}

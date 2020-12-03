@@ -1,0 +1,131 @@
+body{background:#fff;-webkit-font-smoothing: antialiased;}
+*, *:before, *:after {box-sizing: border-box;}
+
+
+/* gnb */
+#main_header{width:100%;background:#fff;position: fixed;z-index: 9999999;height:70px;transition: 0.3s;}
+#main_gnb_wrap{width:1803px;height:70px;margin:0 auto;display:flex;justify-content: space-between;font-family:'Tw Cen W01 Medium', sans-serif;font-weight: 400;border-bottom:1px solid #000}
+.main_gnb{font-size:20px;-webkit-font-smoothing: antialiased;}
+.main_gnb ul{display:flex;height:70px;align-items: center;}
+.main_gnb ul li{margin-right:30px}
+
+.button{border:1px solid #000;padding:8px 23px}
+
+.main_logo{background:#fff;display:flex;align-items: center;margin-left:-220px}
+/* .main_logo img{width:170px;} */
+
+
+
+#main_logo_img{transition: 0.2s;margin:0 auto;display: flex;width:170px}
+.marin_logo_po{width:170px}
+.marin_logo_po2{padding-top:0px;width:170px}
+
+
+
+
+
+
+
+.main_menu_right{display:flex;align-items: center;}
+.main_menu_right img{width:33px;height:25px}
+
+
+.gnb_burger{cursor: pointer;height: 17px;width: 36px;display:flex;justify-content: space-between;flex-direction: column;margin-left:30px}
+.gnb_burger span{content: '';height: 3px;width: 100%;background-color: #000;display: block;}
+
+
+
+/*lnb*/
+#issue37_lnb_wrap{padding-top:70px;height:191px;display: flex;align-items: center;}
+.issue37_lnb{margin:0 auto;font-family: "Tw Cen MT W01 Light", sans-serif;font-size:15px;color:#4d4d4d;letter-spacing: 1.725px;padding:150px 0 80px}
+.issue37_lnb li{float:left;margin:0 10px 0 0; cursor: pointer;}
+li.issue37_lnb_item{margin:0 5px}
+.issue37_lnb li a:link, a:visited {color:#4d4d4d}
+.issue37_lnb li a:hover{text-decoration:none}
+.issue37_lnb li a:active{text-decoration: underline}
+
+
+.issue_37_contents{width:100%}
+.issue_37_contents_wrap{width:1803px;margin:0 auto;display:flex;justify-content: space-between}
+.issue_37_contents_img{width:1330px;height:683px;background:#f2f2f2;display: flex;justify-content: center}
+
+.issue_37_contents_text{width:457px}
+
+main{margin-top:90px}
+.issue_37_contents_text{width:417px}
+.issue_37_contents_text h1{font-size:38px;font-family:'Tw Cen W01 Medium', sans-serif;font-weight: 100 ;margin-bottom:10px}
+.issue_37_contents_text h3{font-size:21px;font-family:'Tw Cen W01 Medium', sans-serif;font-weight: 100;margin-bottom:30px}
+.issue_37_contents_text p{font-size:14px;color:#000;line-height: 26.6px}
+.con_line{margin-top:50px}
+.con_line, .con_line2{font-family:'Tw Cen W01 Medium', sans-serif;font-size:16px;display: block;border-top:1px solid #000;padding:15px 0;letter-spacing: 1.8px}
+.con_line2{border-bottom:1px solid #000}
+
+.con_line:after {
+    content: '+';
+    float: right;
+    font-size: 20px;
+    }
+.con_line2:after {
+    content: '+';
+    float: right;
+    font-size: 20px;
+    }
+
+.selectric{border:1px solid #333;position:relative;margin-top:20px}
+.selectric .label {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    margin: 0 48px 0 10px;
+    line-height: 48px;
+    height: 48px;}
+.selectric .button {
+    display: block;
+    position: absolute;
+    right: 0;
+    top: 0;
+    width: 48px;
+    height: 48px;
+    font-size: 0;
+    background-image: url(../img/chevron-down.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: 15px;border:none}
+.selectric .button:hover{background:none;color:#333 !important}
+.add_btn{font-family:'Tw Cen W01 Medium', sans-serif;font-size:20px;border:1px solid #333;padding:15px 0;text-align: center;margin-top:20px}
+.add_btn:hover{background:#111;color:white;transition:all 0.5s;cursor:pointer}
+
+#issue_37_group{margin-top:170px}
+.issue_37_group_wrap{width:1803px;margin:100px auto;border-top:1px solid #000;padding-bottom:100px;border-bottom:1px solid #000;}
+.issue_37_group_wrap > h2{font-size:20px;text-align: center;margin:50px 0}
+.issue_37_group_wrap ul{display: flex;justify-content: space-around}
+.issue_37_group_wrap ul li{width:258px}
+.issue_37_group_wrap ul li img{width:258px}
+.issue_37_group_wrap ul li h3{margin:8px 0 18px 0}
+.issue_37_group_wrap ul li h2{font-size:18px}
+.issue_37_group_wrap ul li p{font-family:'Tw Cen W01 Medium', sans-serif;font-size:18px;margin-top:2px}
+
+.issue_37_group_wrap figure , .issue_37_contents_img figure{filter:brightness(100%);}
+.issue_37_group_wrap figure:hover , .issue_37_contents_img figure:hover{  filter:brightness(90%);
+  transition : 0.5s;
+  cursor: pointer;}
+
+
+
+
+
+
+footer {
+  width: 100%;
+}
+.footer_inner {
+  width: 1803px;
+  margin: 200px auto 0px ;
+  border-top: 4px solid rgb(0, 0, 0);
+  padding-bottom: 20px;
+}
+.footer_nav{width:1803px;margin:0 auto;display:flex;justify-content: space-between}
+.footer_nav ul{margin-bottom:50px;font-size:20px;font-family: "Tw Cen W01 Medium" , serif;}
+.footer_nav ul li{float:left;margin:0 20px 0 0}
+.footer_nav ul:last-child li{margin-right:0}
